@@ -1,1 +1,6 @@
 /datasets/
+
+*.pth
+
+sam_b.pt
+sam_l.pt
