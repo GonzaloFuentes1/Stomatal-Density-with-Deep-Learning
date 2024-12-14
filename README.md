@@ -14,6 +14,8 @@ Los modelos de SAM se deben descargar del siguiente link, se recomienta usar la 
 
 https://docs.ultralytics.com/es/models/sam/#key-features-of-the-segment-anything-model-sam
 
+Se deben guardar en la carpeta Modelos/SAM/
+
 El repositorio en local deberia seguir este orden
 ```
 ├── datasets/                   # Sets de datos para entrenar el modelo, en formato YOLO
