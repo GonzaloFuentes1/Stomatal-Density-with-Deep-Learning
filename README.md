@@ -13,3 +13,17 @@ pip install -r requirements.txt
 Los modelos de SAM se deben descargar del siguiente link, se recomienta usar la versión pequeña de `sam_b.pt`.
 
 https://docs.ultralytics.com/es/models/sam/#key-features-of-the-segment-anything-model-sam
+
+El repositorio en local deberia seguir este orden
+
+├── Modelos/           # Modelos entrenados o preentrenados
+├── runs/              # Resultados de experimentos y registros
+├── .gitignore         # Archivo de configuración para Git
+├── Contador.ipynb     # Notebook para contar estomas
+├── output.png         # Imagen de salida o resultado generado
+├── README.md          # Documentación del proyecto
+├── SAM.ipynb          # Notebook del modelo Segment Anything
+├── Tests.ipynb        # Notebook con pruebas del proyecto
+├── YOLO8INFO.yaml     # Configuración para YOLOv8
+├── Yolo.ipynb         # Notebook del modelo YOLO
+└── yolov8n.pt         # Pesos del modelo YOLOv8
