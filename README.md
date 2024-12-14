@@ -39,14 +39,14 @@ El repositorio incluye varios notebooks para diferentes propósitos, partes que 
 1. **[Yolo_training.ipynb](./Yolo_training.ipynb)**: Notebook para el entrenamiento de los modelos YOLO.
 2. **[Tests.ipynb](./Tests.ipynb)**: Contiene pruebas relacionadas con los modelos. Conteo y métricas de error con respecto a la data.
 3. **[SAM.ipynb](./SAM.ipynb)**: Notebook que utiliza el modelo Segment Anything para segmentación. Se uso como base para hacer el entregable.
-4. **[Contador.ipynb](./Contador.ipynb)**: Notebook que implementa la funcionalidad de conteo de estomas. Se uso como base para hacer el entregable.
+4. **[Counting.ipynb](./Counting.ipynb)**: Notebook que implementa la funcionalidad de conteo de estomas. Se uso como base para hacer el entregable.
 
 Es necesario decir que cada uno de estos archivos contiene una sección de preprocesamiento para ordenar los archivos. Todo esto porque los modelos de YOLO se entrenan con un formato muy específico de carpetas.
 Para la investigación se realizaron experimentos en dos metódologias principales:
 
 1. HoldOut: Se ordena una proporción 80% training y 20% testing para el entrenamiento de los datos. Con esta metodología entrenamos nuestros modelos finales. El modelo recomendado para utilizar luego de la investigación es `HoldOutSimpleYolov10n.pt` encontrado en `Modelos/yolov10/`
 
-2. OnePlantOut: Se ordenan las carpetas tal que se eligen todas las imagenes de todas las plantas, a excepción de una. Esto ayuda a evaluar finalmente que tanto esta aprendiendo a reconocer estomas independiente de la planta. Se tenia planeado hacer una evaluación del rendimiento en plantas Chilenas del modelo. Pero, los datos no estuvieron a tiempo por lo que no se pudo realizar evaluar esta metodologia. Igualmente, se puede ver que se realizaron modelos para cada una de las plantas del dataset de StoManager1, con el fin de ver en `runs/` métricas de convergencia. Este análisis no llego al reporte final, más que nada por la falta de los datos.
+2. OnePlantOut: Se ordenan las carpetas tal que se eligen todas las imagenes de todas las plantas, a excepción de todas las imagenes de una especie en concreto. Esto ayuda a evaluar finalmente que tanto esta aprendiendo a reconocer estomas independiente de la planta. Se tenia planeado hacer una evaluación del rendimiento en plantas Chilenas del modelo. Pero, los datos no estuvieron a tiempo por lo que no se pudo realizar evaluar esta metodologia. Igualmente, se puede ver que se realizaron modelos para cada una de las plantas del dataset de StoManager1, con el fin de ver en `runs/` métricas de convergencia. Este análisis no llego al reporte final, más que nada por la falta de los datos.
 
 
 
