@@ -37,6 +37,7 @@ El repositorio incluye varios notebooks para diferentes propósitos, partes que 
 3. **[SAM.ipynb](./SAM.ipynb)**: Notebook que utiliza el modelo Segment Anything para segmentación.
 4. **[Tests.ipynb](./Tests.ipynb)**: Contiene pruebas relacionadas con los modelos.
 
-Es necesario decir que cada uno de estos archivos contiene una sección de preprocesamiento para ordenar los archivos. Para la investigación se realizaron experimentos en dos metódologias principales:
+Es necesario decir que cada uno de estos archivos contiene una sección de preprocesamiento para ordenar los archivos. Todo esto porque los modelos de YOLO se entrenan con un formato muy específico de carpetas.
+Para la investigación se realizaron experimentos en dos metódologias principales:
 
-1. [OneHoldOut]
+1. HoldOut: Se ordena una proporción 80% training y 20% testing para el entrenamiento de los datos. Con esta metodología entrenamos nuestros modelos finales. El modelo recomendado para utilizar luego de la investigación es " HoldOutSimpleYolov10n.pt "
