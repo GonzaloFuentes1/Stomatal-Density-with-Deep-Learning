@@ -16,15 +16,14 @@ https://docs.ultralytics.com/es/models/sam/#key-features-of-the-segment-anything
 
 El repositorio en local deberia seguir este orden
 ```
-├── Modelos/           # Modelos entrenados o preentrenados
-├── runs/              # Resultados de experimentos y registros
-├── .gitignore         # Archivo de configuración para Git
-├── Contador.ipynb     # Notebook para contar estomas
-├── output.png         # Imagen de salida o resultado generado
-├── README.md          # Documentación del proyecto
-├── SAM.ipynb          # Notebook del modelo Segment Anything
-├── Tests.ipynb        # Notebook con pruebas del proyecto
-├── YOLO8INFO.yaml     # Configuración para YOLOv8
-├── Yolo.ipynb         # Notebook del modelo YOLO
-└── yolov8n.pt         # Pesos del modelo YOLOv8
+├── Modelos/                    # Modelos entrenados o preentrenados
+├── runs/                       # Resultados de experimentos y registros
+├── Counting.ipynb              # Notebook para contar estomas
+├── SAM.ipynb                   # Notebook del modelo Segment Anything
+├── Tests.ipynb                 # Notebook con pruebas del proyecto
+├── Yolo_training.ipynb         # Notebook del modelo YOLO
+├── YOLO8INFO.yaml              # Configuración para YOLOv8 y YOLO10
+├── requirements.txt            # Instalador de requerimientos
+├── README.md                   # Documentación del proyecto
+├── .gitignore                  # Archivo de configuración para Git
 ```
