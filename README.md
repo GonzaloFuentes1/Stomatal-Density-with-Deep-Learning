@@ -15,7 +15,7 @@ Los modelos de SAM se deben descargar del siguiente link, se recomienta usar la 
 https://docs.ultralytics.com/es/models/sam/#key-features-of-the-segment-anything-model-sam
 
 El repositorio en local deberia seguir este orden
-
+```
 ├── Modelos/           # Modelos entrenados o preentrenados
 ├── runs/              # Resultados de experimentos y registros
 ├── .gitignore         # Archivo de configuración para Git
@@ -27,3 +27,4 @@ El repositorio en local deberia seguir este orden
 ├── YOLO8INFO.yaml     # Configuración para YOLOv8
 ├── Yolo.ipynb         # Notebook del modelo YOLO
 └── yolov8n.pt         # Pesos del modelo YOLOv8
+```
