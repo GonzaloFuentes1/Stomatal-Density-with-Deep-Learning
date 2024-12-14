@@ -10,16 +10,15 @@ En cuanto a las librerias, se encuentra un archivo `requirements.txt`, con tal q
 pip install -r requirements.txt
 ```
 
-Los modelos de SAM se deben descargar del siguiente link, se recomienta usar la versión pequeña de `sam_b.pt`.
+Los modelos de SAM se deben descargar del siguiente link, se recomienta usar la versión pequeña de `sam_b.pt`. Se deben guardar en la carpeta Modelos/SAM/
 
 https://docs.ultralytics.com/es/models/sam/#key-features-of-the-segment-anything-model-sam
 
-Se deben guardar en la carpeta Modelos/SAM/
 
 El repositorio en local deberia seguir este orden
 ```
-├── datasets/                   # Sets de datos para entrenar el modelo, en formato YOLO
-├── Modelos/                    # Modelos entrenados o preentrenados
+├── datasets/                   # Sets de datos para entrenar el modelo, en formato YOLO. Descargado externamente.
+├── Modelos/                    # Modelos entrenados o preentrenados, agregando el modelo SAM elegido
 ├── runs/                       # Resultados de experimentos y registros
 ├── Counting.ipynb              # Notebook para contar estomas
 ├── SAM.ipynb                   # Notebook del modelo Segment Anything
@@ -31,3 +30,13 @@ El repositorio en local deberia seguir este orden
 ├── .gitignore                  # Archivo de configuración para Git
 ```
 
+El repositorio incluye varios notebooks para diferentes propósitos, partes que se hicieron a medida la investigación progresaba. 
+
+1. **[Yolo_training.ipynb](./Yolo_training.ipynb)**: Tiene 
+2. **[Contador.ipynb](./Contador.ipynb)**: Notebook que implementa la funcionalidad de conteo de estomas.
+3. **[SAM.ipynb](./SAM.ipynb)**: Notebook que utiliza el modelo Segment Anything para segmentación.
+4. **[Tests.ipynb](./Tests.ipynb)**: Contiene pruebas relacionadas con los modelos.
+
+Es necesario decir que cada uno de estos archivos contiene una sección de preprocesamiento para ordenar los archivos. Para la investigación se realizaron experimentos en dos metódologias principales:
+
+1. [OneHoldOut]
