@@ -16,6 +16,7 @@ https://docs.ultralytics.com/es/models/sam/#key-features-of-the-segment-anything
 
 El repositorio en local deberia seguir este orden
 ```
+├── datasets/                   # Sets de datos para entrenar el modelo, en formato YOLO
 ├── Modelos/                    # Modelos entrenados o preentrenados
 ├── runs/                       # Resultados de experimentos y registros
 ├── Counting.ipynb              # Notebook para contar estomas
@@ -27,3 +28,4 @@ El repositorio en local deberia seguir este orden
 ├── README.md                   # Documentación del proyecto
 ├── .gitignore                  # Archivo de configuración para Git
 ```
+
