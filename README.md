@@ -54,7 +54,7 @@ Para la investigación se realizaron experimentos en dos metódologias principal
 
 - Se recomienda fuertemente trabajar con CUDA si su dispositivo tiene una tarjeta de video NVIDIA, para el entrenamiento de los modelos YOLO y para le segmentación. Esta instalación es dependiente de cada dispositivo. Dejamos una referencia de como podria instalarse en cada caso. https://www.tensorflow.org/install/gpu?hl=es-419
 
-- Si se quiere re-entrenar los modelos, es facil ver que se pueden evaluar de manera separada en el notbook de testeo. 
+- Si se quiere re-entrenar los modelos, es facil ver que se pueden evaluar de manera separada en el notebook de testeo. 
 
 - Considerar que por las dimensiones tratadas, el modelo es lento de entrenar.
 
