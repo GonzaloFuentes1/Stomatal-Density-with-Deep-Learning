@@ -62,4 +62,4 @@ Para la investigación se realizaron experimentos en dos metódologias principal
 
 ## Creditos y agradecimientos
 
-Este proyecto fue posible gracias al apoyo y colaboración de diversas personas. Agradecemos especialmente a nuestro profesor Alejandro Cataldo por su guía y conocimientos durante el desarrollo de este trabajo. Asimismo, reconcomos a todos los integrantes del grupo Gonzalo Fuentes, Leon Sánchez, Matías Giddings, Nicolás Donoso y Maximiliano Valenzuela.
+Este proyecto fue posible gracias al apoyo y colaboración de diversas personas. Agradecemos especialmente a nuestro profesor Alejandro Cataldo por su guía y conocimientos durante el desarrollo de este trabajo. Asimismo, reconocemos a todos los integrantes del grupo Gonzalo Fuentes, Leon Sánchez, Matías Giddings, Nicolás Donoso y Maximiliano Valenzuela.
